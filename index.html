@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./images/favicon-32x32.png" />
+  <meta name="description" content="This is a solution to the [News homepage challenge on Frontend Mentor]">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <!-- google font -->
+
+  <title>News homepage challenge</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <img src="./images/logo.svg" alt="World News Magezin">
+      </div>
+      <nav class="primary-navigation">
+        <ul role="list">
+          <li><a class="nav-item" href="#">Home</a></li>
+          <li><a class="nav-item" href="#">New</a></li>
+          <li><a class="nav-item" href="#">Popular</a></li>
+          <li><a class="nav-item" href="#">Trending</a></li>
+          <li><a class="nav-item" href="#">Categories</a></li>
+        </ul>
+      </nav>
+      <button class="mobile-nav-toggle" onclick="toggleMenu()">
+        <img class="menu-open" src="./images/icon-menu.svg" alt="">
+        <img class="menu-close" src="./images/icon-menu-close.svg" alt="">
+      </button>
+    </header>
+    <main>
+      <div class="image">
+        <img src="./images/image-web-3-desktop.jpg" alt="">
+      </div>
+
+      <div class="primary-title">
+        <h1>The Bright Future of Web 3.0?</h1>
+      </div>
+      <div class="primary-article">
+        <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands
+          of the people. But is it really fulfilling its promise?</p>
+        <button class="button">Read More</button>
+      </div>
+      <div class="new">
+        <h2>New</h2>
+        <div class="new-item" id="first-new">
+          <a href="#">
+            <h3>Hydrogen VS Electric Cars</h3>
+          </a>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <div class="new-item">
+          <a href="#">
+            <h3>The Downsides of AI Artistry</h3>
+          </a>
+          <p>What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        <div class="new-item">
+          <a href="#">
+            <h3>Is VC Funding Drying Up?</h3>
+          </a>
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </div>
+      <div class="articles">
+        <div class="articles-item">
+          <div class="articles-item-image">
+            <img src="./images/image-retro-pcs.jpg" alt="">
+          </div>
+          <div class="articels-item-info">
+            <span>01</span>
+            <a href="#">
+              <h4>Reviving Retro PCs</h4>
+            </a>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+        <div class="articles-item">
+          <div class="articles-item-image">
+            <img src="./images/image-top-laptops.jpg" alt="">
+          </div>
+          <div class="articels-item-info">
+            <span>02</span>
+            <a href="#">
+              <h4>Top 10 Laptops of 2022</h4>
+            </a>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+        <div class="articles-item">
+          <div class="articles-item-image">
+            <img src="./images/image-gaming-growth.jpg" alt="">
+          </div>
+          <div class="articels-item-info">
+            <span>03</span>
+            <a href="#">
+              <h4>The Growth of Gaming</h4>
+            </a>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>
