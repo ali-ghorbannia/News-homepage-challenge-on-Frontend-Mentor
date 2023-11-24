@@ -1,4 +1,3 @@
-import './style.css'
 
 
 const navToggle = document.querySelector(".mobile-nav-toggle");
